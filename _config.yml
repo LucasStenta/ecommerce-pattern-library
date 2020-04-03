@@ -1,10 +1,14 @@
-permallink: pretty
+permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Mary Jane"
+  description: |
+    This is a pattern library. Wheeeee
   font_url: "https://use.typekit.net/rld0uvc.css"
+
   colors:
     patterns:
       brand.logos: "--color-secondary"
       buttons.ghost: "--color-secondary"
-      cards: "--color-secondary"
+      cards: "--color-primary"
