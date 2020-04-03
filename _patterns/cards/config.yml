@@ -1,0 +1,13 @@
+title: "Cards"
+description: |
+  These are Cards.
+
+patterns:
+  cards:
+    title: "card"
+    description: |
+      This is the basic card.
+    fields:
+      - name: text
+        type: string
+        example: "Blue Kush"

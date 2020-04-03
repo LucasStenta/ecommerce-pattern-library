@@ -11,4 +11,4 @@ patternbot:
     patterns:
       brand.logos: "--color-secondary"
       buttons.ghost: "--color-secondary"
-      cards.cards: "--color-primary"
+      cards.cards: "--color-secondary"
