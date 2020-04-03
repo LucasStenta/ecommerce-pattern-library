@@ -1,0 +1,19 @@
+div {
+  background-color: var(--color-primary);
+  text-color: white;
+}
+a:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+.navbar a {
+  color: var(--color-white);
+  display: inline-block;
+}

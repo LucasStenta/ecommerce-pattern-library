@@ -1,0 +1,28 @@
+footer {
+  background-color: var(--color-primary);
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer a.active {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+footer a:hover, .navstate:active {
+  background: var(--color-secondary);
+}
+
+i{
+  color:#fff;
+}
