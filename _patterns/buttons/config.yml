@@ -1,0 +1,16 @@
+title: "Buttons"
+description: |
+  These are buttons.
+
+patterns:
+  basic:
+    title: "Basic Button"
+    description: |
+      This is the basic button.
+    fields:
+      - name: text
+        type: string
+        example: "Mary Jane's Cannabis"
+      - name: url
+        type: url
+        example: "#"
