@@ -1,19 +1,50 @@
-div {
-  background-color: var(--color-primary);
-  text-color: white;
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-a:hover {
-  background-color: var(--color-secondary);
+
+p a {
+  text-decoration: none;
   color: #fff;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: transparent;
-  color: var(--color-white);
+.navbar a.active {
+  background-color: var(--color-secondary);
+  color: white;
 }
 
-.navbar a {
-  color: var(--color-white);
-  display: inline-block;
+.navstate:hover, .navstate:active {
+  background: var(--color-primary);
+}
+
+.current {
+  background: var(--color-secondary);
+}
+
+.ulist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-primary);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.list {
+  float:right;
+}
+
+.list a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 200px;
 }
