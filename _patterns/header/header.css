@@ -15,8 +15,9 @@ p a {
   color: white;
 }
 
-.navstate:hover, .navstate:active {
-  background: var(--color-primary);
+.navlist:hover {
+  background: #ddd;
+  color: black;
 }
 
 .current {
