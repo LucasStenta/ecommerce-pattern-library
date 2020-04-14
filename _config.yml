@@ -12,3 +12,4 @@ patternbot:
       brand.logos: "--color-secondary"
       buttons.ghost: "--color-secondary"
       cards.cards: "--color-secondary"
+      navigations.page-nav: "--color-secondary"
